@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Андроид разработка 2</string>
+    <string name="landscape_text">Это ландшафтный вид</string>
+    <string name="button_ok">Далее</string>
+</resources>

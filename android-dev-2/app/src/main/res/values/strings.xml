@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">androidDev2</string>
+    <string name="landscape_text">This is Landscape Layout</string>
+    <string name="button_ok">OK</string>
+</resources>
