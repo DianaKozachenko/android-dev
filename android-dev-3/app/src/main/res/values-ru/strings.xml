@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Андроид разработка</string>
+    <string name="landscape_text">Это ландшафтный вид</string>
+    <string name="button_ok">Далее</string>
+    <string name="exit">Выход</string>
+    <string name="about">О приложении</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="about_application">Это 3 лаба</string>
+</resources>
