@@ -10,8 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.androiddev3.fragment.AboutDialogFragment;
-import com.example.androiddev3.fragment.ExitDialogFragment;
+import com.example.androiddev3.dialog.AboutDialog;
+import com.example.androiddev3.dialog.ExitDialog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -58,12 +58,12 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.about:
-                AboutDialogFragment aboutDialogFragment = new AboutDialogFragment();
-                aboutDialogFragment.show(getSupportFragmentManager(), "AboutDialogFragment");
+                AboutDialog aboutDialog = new AboutDialog();
+                aboutDialog.show(getSupportFragmentManager(), "AboutDialog");
                 return true;
             case R.id.exit:
-                ExitDialogFragment exitDialogFragment = new ExitDialogFragment();
-                exitDialogFragment.show(getSupportFragmentManager(), "ExitDialogFragment");
+                ExitDialog exitDialog = new ExitDialog();
+                exitDialog.show(getSupportFragmentManager(), "ExitDialog");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

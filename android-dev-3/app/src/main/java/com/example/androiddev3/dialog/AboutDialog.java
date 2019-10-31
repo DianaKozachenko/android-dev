@@ -1,15 +1,14 @@
-package com.example.androiddev3.fragment;
+package com.example.androiddev3.dialog;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 
 import com.example.androiddev3.R;
 
 import androidx.fragment.app.DialogFragment;
 
-public class AboutDialogFragment extends DialogFragment {
+public class AboutDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

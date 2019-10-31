@@ -1,4 +1,4 @@
-package com.example.androiddev3.fragment;
+package com.example.androiddev3.dialog;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -9,7 +9,7 @@ import com.example.androiddev3.R;
 
 import androidx.fragment.app.DialogFragment;
 
-public class ExitDialogFragment extends DialogFragment {
+public class ExitDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
