@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android-dev-4</string>
+    <string name="question">Enter question</string>
+    <string name="answer_text">Enter answer</string>
+    <string name="button_ok">OK</string>
+    <string name="scroll_text">Prime numbers will be displayed here</string>
+</resources>
